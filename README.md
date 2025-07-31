@@ -19,7 +19,7 @@ The repository includes:
 
 The full data associated with this experiment is openly available via OSF:
 
-🔗 [OSF Repository: Competency Questions and Evaluation Data](https://osf.io/2xyn4)
+🔗 [OSF Repository: Competency Questions and Evaluation Data](https://osf.io/2xyn4/files/osfstorage)
 
 This includes:
 
