@@ -13,7 +13,7 @@ GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Call the Gemini API.
-def call_gemini_api(LLM_role, user_prompt, ontology):
+def call_gemini_api(LLM_role, ontology, user_prompt):
     try:
         model = genai.GenerativeModel('gemini-2.0-flash')  # Gemini model being accessed.
 
@@ -561,4 +561,5 @@ data = call_gemini_api(LLM_role, ontology_subset_relationships, prompt_few_shot_
 file_path = "Run12.xlsx"  # Path to your Excel file
 sheet_name = "Tabelle1"  # Sheet where you want to add data
 add_column_to_excel(file_path, sheet_name, 0, data)
+
 
