@@ -36,7 +36,7 @@ This includes:
 | ✅ | **Data Available**                           | Generated questions, ground truth set, and expert evaluation data included |
 | ✅ | **Prompts Included**                         | Full LLM prompts for GPT-4o and Gemini provided                            |
 | ✅ | **Dependencies Listed**                      | `requirements.txt` provided                                                |
-| ✅ | **Pretrained Models Identified**             | SentenceBERT model specified (`all-MiniLM-L6-v2`)                          |
+| ✅ | **Pretrained Models Identified**             | SentenceBERT model specified (`all-mpnet-base-v2`)                          |
 | ✅ | **API Requirements Specified**               | OpenAI API and Gemini API keys required                                    |
 | ✅ | **Environment Instructions Provided**        | Setup instructions included in README                                      |
 | ✅ | **Randomness Controlled (where applicable)** | Seeds set for generation consistency                                       |
